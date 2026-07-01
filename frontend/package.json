@@ -1,0 +1,34 @@
+{
+  "name": "dataanalyst-ai-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@react-three/drei": "^9.92.0",
+    "@react-three/fiber": "^8.15.0",
+    "axios": "^1.6.0",
+    "dataanalyst-ai": "file:..",
+    "framer-motion": "^10.16.0",
+    "lucide-react": "^0.303.0",
+    "papaparse": "^5.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-router-dom": "^6.21.0",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.10.0",
+    "three": "^0.160.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "proxy": "http://localhost:5000",
+  "browserslist": {
+    "production": [
+      ">0.2%"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  }
+}
