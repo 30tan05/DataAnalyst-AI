@@ -19,7 +19,7 @@ import ThemeToggle from '../components/ThemeToggle';
 import { useTheme } from '../ThemeContext';
 import './AnalyticsApp.css';
 
-const API = 'http://localhost:5000/api';
+const API = "https://dataanalyst-ai-backend.onrender.com";
 const SESSION_ID = `session-${Math.random().toString(36).slice(2)}-${Date.now()}`;
 const api = axios.create({ baseURL: API, headers: { 'x-session-id': SESSION_ID } });
 
